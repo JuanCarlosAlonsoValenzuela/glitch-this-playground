@@ -26,7 +26,7 @@ glitch_img = glitcher.glitch_image(
     cycle=True,             # Si vale True, cuando el nivel de glitching aumente (gracias al parámetro glitch_change)
                             # hasta 10, se reiniciará a 0 para seguir aumentando.
     # frames=23,              # Número de frames por segundo (el valor por defecto es 23).
-    step=2                     # Cada cuantos frames se incrementa el valor del glitching, el valor por defecto es 1.
+    # step=2                     # Aplica glitch a cada frame número n en lugar de a todos
 )
 
 
