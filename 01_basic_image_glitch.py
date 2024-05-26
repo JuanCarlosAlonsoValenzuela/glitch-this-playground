@@ -30,7 +30,7 @@ print(img)
 #               resultado con otro nombre si te gusta
 glitch_img = glitcher.glitch_image(
     img,                # Imagen a modificar (inicializada antes)
-    8.0       # Nivel de glitching entre 0.0 y 10.0 a aplicar (el creador de la librería dice que su favorito es el 2)
+    glitch_amount=8.0       # Nivel de glitching entre 0.0 y 10.0 a aplicar (el creador de la librería dice que su favorito es el 2)
 )
 
 # Guardamos la imagen resultante en la carpeta output.png

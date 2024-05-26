@@ -20,7 +20,7 @@ print(img)
 # Puedes comentar/descomentar cada línea para ver los efectos de cada parámetro de manera individual
 glitch_img = glitcher.glitch_image(
     img,                     # Imagen a modificar (inicializada antes)
-    8.0,         # Nivel de glitching entre 0.0 y 10.0 a aplicar (el creador de la librería dice que su favorito es el 2)
+    glitch_amount=8.0,         # Nivel de glitching entre 0.0 y 10.0 a aplicar (el creador de la librería dice que su favorito es el 2)
     color_offset=True,       # Modifica aleatoriamente el valor del RGB
     scan_lines=True,         # Líneas de televisión antigua
 )

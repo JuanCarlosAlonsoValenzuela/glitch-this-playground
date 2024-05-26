@@ -16,7 +16,7 @@ print(img)
 
 glitch_img = glitcher.glitch_image(
     img,
-    8.0,
+    glitch_amount=8.0,
     color_offset=True,
     gif=True                # Hace que el resultado sea un gif, lo que hace este parámetro en realidad es indicar a la
                             # función que debe glitchear la imagen original varias veces en lugar de solo una,
