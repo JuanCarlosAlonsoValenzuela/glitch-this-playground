@@ -14,7 +14,7 @@ img = Image.open("input/example_gif.gif")
 print(img)
 
 # Mismos parámetros que con las imágenes (Script 02)
-# También puede usarse glitching incremental como en el script 4
+# También puede usarse glitching incremental como en el script 04
 # En lugar de un objeto devuelve 3:
 # glitch_img: Array de imágenes que componen el gif glitcheado
 # src_gif_duration: Duración en centésimas de segundos del gif resultante

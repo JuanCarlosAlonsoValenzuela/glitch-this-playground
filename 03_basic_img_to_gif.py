@@ -20,15 +20,16 @@ glitch_img = glitcher.glitch_image(
     color_offset=True,
     gif=True                # Hace que el resultado sea un gif, lo que hace este parámetro en realidad es indicar a la
                             # función que debe glitchear la imagen original varias veces en lugar de solo una,
-                            # devolviendo un array de imágenes glitcheadas en lugar de solo una.
+                            # devolviendo un array de imágenes glitcheadas en lugar de solo una (cada imagen del array será
+                            # un frame del gif a crear).
 )
 
 
 # Este código de guardado es ligeramente diferente al de los scripts anteriores, ya que recibe como entrada la primera
-# imagen del array creado con la función anterior (glitch_img[0]) y la guarda contatenándole el resto de imágenes
+# imagen del array creado con la función anterior (glitch_img[0]) y la guarda concatenándole el resto de imágenes
 # del array después (parámetro: append_images=glitch_img[1:])
 # Puede tardar varios segundos en finalizar
-DURATION = 200      # Duracion en centésimas de segundo
+DURATION = 200      # Duracion en centésimas de segundo del gif resultante
 LOOP = 0            # 0 para bucle infinito
 glitch_img[0].save('output/kanagawa_gif.gif',
                    format='GIF',

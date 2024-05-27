@@ -3,7 +3,7 @@ from PIL import Image
 from glitch_this import ImageGlitcher
 
 """
-- Para usar la librería tienes que ejecutar el siguiente comando:
+- Para instalar la librería tienes que ejecutar el siguiente comando:
     pip install glitch-this
 
 - Repositorio oficial: https://github.com/TotallyNotChase/glitch-this?tab=readme-ov-file
@@ -30,7 +30,7 @@ print(img)
 #               resultado con otro nombre si te gusta
 glitch_img = glitcher.glitch_image(
     img,                # Imagen a modificar (inicializada antes)
-    glitch_amount=8.0       # Nivel de glitching entre 0.0 y 10.0 a aplicar (el creador de la librería dice que su favorito es el 2)
+    glitch_amount=8.0       # Nivel de glitching entre 1.0 y 10.0 a aplicar (el creador de la librería dice que su favorito es el 2)
 )
 
 # Guardamos la imagen resultante en la carpeta output.png
