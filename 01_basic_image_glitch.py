@@ -33,5 +33,5 @@ glitch_img = glitcher.glitch_image(
     glitch_amount=8.0       # Nivel de glitching entre 1.0 y 10.0 a aplicar (el creador de la librería dice que su favorito es el 2)
 )
 
-# Guardamos la imagen resultante en la carpeta output.png
+# Guardamos la imagen resultante en la carpeta output
 glitch_img.save("output/kanagawa_basic_glitch.png")
